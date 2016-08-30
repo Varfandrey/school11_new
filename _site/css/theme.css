@@ -4,11 +4,11 @@
 
 body {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 p {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 h1,
@@ -148,7 +148,9 @@ h6{
 }
 
 .site-heading {
-    padding: 150px 0;
+    padding: 100px 0;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .site-heading h1 {
@@ -210,7 +212,7 @@ hr.small {
     color: #337ab7;
 }
 
-ul {
+.nav ul {
     list-style: none;
     margin: 0;
     padding-left: 0;
@@ -278,7 +280,12 @@ img {
     margin: 0;
     padding: 0;
 }
-
+.docs img{
+    height: 250px;
+}
+img.icon{
+    width: 17px;
+}
 /*
  * Footer
  */
@@ -296,4 +303,8 @@ footer p {
     position: fixed;
     bottom: 5px;
     right: 5px;
+}
+p>a {
+    margin-top: 4px;
+    margin-right: 4px;
 }
