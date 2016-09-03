@@ -26,7 +26,18 @@ h6{
     font-weight: 800;
 }
 
-
+img {
+    padding: 5px;
+}
+.years > li > a {
+    padding: 1px 2px;
+}
+.years > li > a:hover{
+    background: #fff;
+}
+.years > li > a:target{
+    background: #fff;
+}
 /*
  * Navigation 
  */
@@ -286,6 +297,20 @@ img {
 img.icon{
     width: 17px;
 }
+
+@media screen and (max-width:767px) {
+    .teachers img{
+        width: 150px;
+    }
+}
+.teachers{
+    line-height: 1.2;
+}
+.teachers h3{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
 /*
  * Footer
  */
