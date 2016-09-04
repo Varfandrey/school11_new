@@ -20,7 +20,9 @@ h6{
     font-weight: 800;
     color: #337ab7;;
 }
-
+h3{
+    font-size: 20px;
+}
 .navbar-custom .nav li a,
 .navbar-custom .navbar-brand {
     font-weight: 800;
